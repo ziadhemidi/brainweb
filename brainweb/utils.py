@@ -670,3 +670,22 @@ def register(src, target=None, ROI=None, target_shape=Shape.mMR,
     if dtype is not None:
         src = src.astype(dtype)
     return src
+  
+# def check_tissue(tissue, _class):
+#     """@param tissue  : ndarray. Tissue image."""
+    
+#     return tissue
+  
+  
+# def generate_mri(labels):
+#     """
+#     Generate a 3D MRI image from a 3D label image.
+
+#     @param labels  : ndarray. 3D label image.
+#     """
+#     assert labels.ndim == 3
+#     mri = np.zeros_like(labels, dtype=np.float32)
+#     for i in range(1, labels.max()):
+
+#         mri[labels == i] = np.exp(-(TE)/(T2.))
+#     return mri

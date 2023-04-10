@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "brainweb"
+version = "0.1.0"
+description = ""
+authors = ["Ziad Al-Haj Hemidi <z.alhajhemidi@uni-luebeck.de>"]
+license = "MIT"
+#readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tqdm = ">=4.42.0"
+requests = "^2.28.2"
+numpy = "^1.24.2"
+scikit-image = "^0.20.0"
+matplotlib = "^3.7.1"
+ipykernel = "^6.22.0"
+ipywidgets = "^8.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
